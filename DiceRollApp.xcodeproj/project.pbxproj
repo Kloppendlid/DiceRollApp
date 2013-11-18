@@ -21,6 +21,8 @@
 		109CE9EE183A9C88004E625F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109CE9D0183A9C88004E625F /* UIKit.framework */; };
 		109CE9F6183A9C88004E625F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 109CE9F4183A9C88004E625F /* InfoPlist.strings */; };
 		109CE9F8183A9C88004E625F /* DiceRollAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109CE9F7183A9C88004E625F /* DiceRollAppTests.m */; };
+		109CEA03183A9DC9004E625F /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109CEA02183A9DC9004E625F /* DieView.m */; };
+		109CEA06183A9F5C004E625F /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109CEA05183A9F5C004E625F /* DiceDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		109CE9F3183A9C88004E625F /* DiceRollAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceRollAppTests-Info.plist"; sourceTree = "<group>"; };
 		109CE9F5183A9C88004E625F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		109CE9F7183A9C88004E625F /* DiceRollAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceRollAppTests.m; sourceTree = "<group>"; };
+		109CEA01183A9DC9004E625F /* DieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		109CEA02183A9DC9004E625F /* DieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
+		109CEA04183A9F5C004E625F /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		109CEA05183A9F5C004E625F /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				109CE9E2183A9C88004E625F /* ViewController.m */,
 				109CE9E4183A9C88004E625F /* Images.xcassets */,
 				109CE9D3183A9C88004E625F /* Supporting Files */,
+				109CEA01183A9DC9004E625F /* DieView.h */,
+				109CEA02183A9DC9004E625F /* DieView.m */,
+				109CEA04183A9F5C004E625F /* DiceDataController.h */,
+				109CEA05183A9F5C004E625F /* DiceDataController.m */,
 			);
 			path = DiceRollApp;
 			sourceTree = "<group>";
@@ -250,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				109CE9E3183A9C88004E625F /* ViewController.m in Sources */,
+				109CEA03183A9DC9004E625F /* DieView.m in Sources */,
 				109CE9DD183A9C88004E625F /* AppDelegate.m in Sources */,
+				109CEA06183A9F5C004E625F /* DiceDataController.m in Sources */,
 				109CE9D9183A9C88004E625F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
