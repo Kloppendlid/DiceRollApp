@@ -390,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiceRollApp/DiceRollApp-Prefix.pch";
 				INFOPLIST_FILE = "DiceRollApp/DiceRollApp-Info.plist";
@@ -403,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiceRollApp/DiceRollApp-Prefix.pch";
 				INFOPLIST_FILE = "DiceRollApp/DiceRollApp-Info.plist";
@@ -472,6 +474,7 @@
 				109CE9FD183A9C88004E625F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109CE9FE183A9C88004E625F /* Build configuration list for PBXNativeTarget "DiceRollAppTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +483,7 @@
 				109CEA00183A9C88004E625F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
